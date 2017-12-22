@@ -1,0 +1,61 @@
+@import '../../theme/variables.scss';
+@import '../../theme/mixins.scss';
+
+.header-section {
+  @include flexbox();
+  background-color: #fc7d7d;
+  height: 100vh;
+  align-items: center;
+  .header-container {
+    @include flexbox();
+    max-width: 970px;
+    margin: 0 auto;
+    .text-container {
+      width: 50%;
+      color: #ffffff;
+      padding-right: 50px;
+      h1 {
+        //font-family: "Droid Sans";
+        font-size: 72px;
+        font-weight: 700;
+      }
+      .title-description {
+        //font-family: "Droid Sans";
+        font-size: 30px;
+        font-weight: 700;
+      }
+      .text {
+        //font-family: Quicksand;
+        font-size: 13px;
+        font-weight: 400;
+        margin-top: 15px;
+      }
+      .buttons-container {
+        @include flexbox();
+        margin-top: 30px;
+        button {
+          border: 3px solid #ff5959;
+          background: transparent;
+          padding: 10px 22px;
+          color: #ffffff;
+          //font-family: "Droid Sans";
+          font-size: 18px;
+          font-weight: 700;
+          text-transform: uppercase;
+          border-radius: 8px;
+          width: 170px;
+        }
+        .team {
+          background-color: #ff5959;
+          margin-right: 20px;
+        }
+        .contact {
+
+        }
+      }
+    }
+    .image-container {
+      width: 50%;
+    }
+  }
+}

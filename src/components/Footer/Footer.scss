@@ -1,0 +1,12 @@
+@import '../../theme/variables.scss';
+@import '../../theme/mixins.scss';
+
+.footer-section{
+  padding: 45px;
+  background: #ff5959;
+  color: #fff;
+  text-align: center;
+  p{
+    display: inline;
+  }
+}
