@@ -36,7 +36,7 @@
       @include justify-content(space-between);
       margin-top: 50px;
       .form{
-        display: block;
+        display: inline-flex;
         width: 50%;
         padding: 0 20px;
 

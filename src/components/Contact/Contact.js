@@ -34,8 +34,8 @@ export default class Contact extends Component {
                   <span>  (+254) 001 454 333 66</span>
                 </div>
                 <div className='buttons-container'>
-                  <button className='team'>SEND MASSAGE</button>
-                  <button className='contact'>VIEW MAP</button>
+                  <button className='massage'>SEND MASSAGE</button>
+                  <button className='map'>VIEW MAP</button>
                 </div>
               </div>
             </div>
